@@ -1,0 +1,28 @@
+goos: darwin
+goarch: arm64
+pkg: changkun.de/x/pgo-glimpse/branch-prediction
+BenchmarkBranchPrediction
+BenchmarkBranchPrediction/predictable
+BenchmarkBranchPrediction/predictable-8         	      33	  32319169 ns/op
+BenchmarkBranchPrediction/predictable-8         	      37	  33060055 ns/op
+BenchmarkBranchPrediction/predictable-8         	      37	  37354991 ns/op
+BenchmarkBranchPrediction/predictable-8         	      34	  32971190 ns/op
+BenchmarkBranchPrediction/predictable-8         	      37	  36639365 ns/op
+BenchmarkBranchPrediction/predictable-8         	      37	  32914904 ns/op
+BenchmarkBranchPrediction/predictable-8         	      36	  32421571 ns/op
+BenchmarkBranchPrediction/predictable-8         	      37	  34667796 ns/op
+BenchmarkBranchPrediction/predictable-8         	      33	  32056146 ns/op
+BenchmarkBranchPrediction/predictable-8         	      37	  32521553 ns/op
+BenchmarkBranchPrediction/unpredictable
+BenchmarkBranchPrediction/unpredictable-8       	       5	 215518992 ns/op
+BenchmarkBranchPrediction/unpredictable-8       	       5	 214876358 ns/op
+BenchmarkBranchPrediction/unpredictable-8       	       5	 209770317 ns/op
+BenchmarkBranchPrediction/unpredictable-8       	       5	 219279892 ns/op
+BenchmarkBranchPrediction/unpredictable-8       	       5	 221289033 ns/op
+BenchmarkBranchPrediction/unpredictable-8       	       5	 222796325 ns/op
+BenchmarkBranchPrediction/unpredictable-8       	       5	 220218208 ns/op
+BenchmarkBranchPrediction/unpredictable-8       	       4	 253319031 ns/op
+BenchmarkBranchPrediction/unpredictable-8       	       5	 207095842 ns/op
+BenchmarkBranchPrediction/unpredictable-8       	       5	 206852725 ns/op
+PASS
+ok  	changkun.de/x/pgo-glimpse/branch-prediction	37.150s
