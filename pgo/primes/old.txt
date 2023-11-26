@@ -1,0 +1,28 @@
+goos: darwin
+goarch: arm64
+pkg: changkun.de/x/pgo-glimpse/pgo/primes
+BenchmarkPrimeSieve
+BenchmarkPrimeSieve/5
+BenchmarkPrimeSieve/5-8 	17856721	        66.27 ns/op
+BenchmarkPrimeSieve/5-8 	18522984	        62.69 ns/op
+BenchmarkPrimeSieve/5-8 	18465052	        63.28 ns/op
+BenchmarkPrimeSieve/5-8 	18642960	        62.27 ns/op
+BenchmarkPrimeSieve/5-8 	18408436	        62.44 ns/op
+BenchmarkPrimeSieve/5-8 	18357325	        62.56 ns/op
+BenchmarkPrimeSieve/5-8 	17757104	        66.50 ns/op
+BenchmarkPrimeSieve/5-8 	18496894	        64.06 ns/op
+BenchmarkPrimeSieve/5-8 	18212781	        63.27 ns/op
+BenchmarkPrimeSieve/5-8 	18268304	        62.59 ns/op
+BenchmarkPrimeSieve/10
+BenchmarkPrimeSieve/10-8         	15595242	        76.32 ns/op
+BenchmarkPrimeSieve/10-8         	15261770	        75.00 ns/op
+BenchmarkPrimeSieve/10-8         	15562107	        76.51 ns/op
+BenchmarkPrimeSieve/10-8         	15504860	        78.09 ns/op
+BenchmarkPrimeSieve/10-8         	15739966	        77.26 ns/op
+BenchmarkPrimeSieve/10-8         	15501622	        76.15 ns/op
+BenchmarkPrimeSieve/10-8         	15399693	        75.68 ns/op
+BenchmarkPrimeSieve/10-8         	15281440	        79.67 ns/op
+BenchmarkPrimeSieve/10-8         	15645940	        77.65 ns/op
+BenchmarkPrimeSieve/10-8         	15637819	        75.15 ns/op
+PASS
+ok  	changkun.de/x/pgo-glimpse/pgo/primes	25.774s
