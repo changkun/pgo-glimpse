@@ -1,0 +1,7 @@
+goos: darwin
+goarch: arm64
+pkg: changkun.de/x/pgo-glimpse/profile
+BenchmarkCounter
+BenchmarkCounter-8   	251595758	        57.86 ns/op
+PASS
+ok  	changkun.de/x/pgo-glimpse/profile	19.580s
