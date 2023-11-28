@@ -1,0 +1,28 @@
+goos: darwin
+goarch: arm64
+pkg: changkun.de/x/pgo-glimpse/call-overhead
+BenchmarkCallOverhead
+BenchmarkCallOverhead/call
+BenchmarkCallOverhead/call-8         	  182646	      6102 ns/op
+BenchmarkCallOverhead/call-8         	  196616	      6116 ns/op
+BenchmarkCallOverhead/call-8         	  189721	      6343 ns/op
+BenchmarkCallOverhead/call-8         	  196467	      6100 ns/op
+BenchmarkCallOverhead/call-8         	  196792	      6145 ns/op
+BenchmarkCallOverhead/call-8         	  196808	      6049 ns/op
+BenchmarkCallOverhead/call-8         	  194164	      6068 ns/op
+BenchmarkCallOverhead/call-8         	  193185	      6060 ns/op
+BenchmarkCallOverhead/call-8         	  197187	      6004 ns/op
+BenchmarkCallOverhead/call-8         	  196867	      6113 ns/op
+BenchmarkCallOverhead/direct
+BenchmarkCallOverhead/direct-8       	 3582782	       330.9 ns/op
+BenchmarkCallOverhead/direct-8       	 3615506	       342.0 ns/op
+BenchmarkCallOverhead/direct-8       	 3616202	       347.9 ns/op
+BenchmarkCallOverhead/direct-8       	 3619932	       336.5 ns/op
+BenchmarkCallOverhead/direct-8       	 3597999	       375.6 ns/op
+BenchmarkCallOverhead/direct-8       	 3611472	       335.1 ns/op
+BenchmarkCallOverhead/direct-8       	 3585478	       335.9 ns/op
+BenchmarkCallOverhead/direct-8       	 3545532	       335.0 ns/op
+BenchmarkCallOverhead/direct-8       	 3203035	       334.0 ns/op
+BenchmarkCallOverhead/direct-8       	 3495303	       333.0 ns/op
+PASS
+ok  	changkun.de/x/pgo-glimpse/call-overhead	28.917s
