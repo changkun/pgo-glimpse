@@ -1,0 +1,17 @@
+goos: darwin
+goarch: arm64
+pkg: changkun.de/x/pgo-glimpse/pgo/math
+BenchmarkMul
+BenchmarkMul/CPU-block(1024x1024)
+BenchmarkMul/CPU-block(1024x1024)-8         	       1	6110714000 ns/op
+BenchmarkMul/CPU-block(1024x1024)-8         	       1	6141461834 ns/op
+BenchmarkMul/CPU-block(1024x1024)-8         	       1	6171481791 ns/op
+BenchmarkMul/CPU-block(1024x1024)-8         	       1	6206087041 ns/op
+BenchmarkMul/CPU-block(1024x1024)-8         	       1	6165427834 ns/op
+BenchmarkMul/CPU-block(1024x1024)-8         	       1	6174809209 ns/op
+BenchmarkMul/CPU-block(1024x1024)-8         	       1	6175328917 ns/op
+BenchmarkMul/CPU-block(1024x1024)-8         	       1	6123621916 ns/op
+BenchmarkMul/CPU-block(1024x1024)-8         	       1	6136538500 ns/op
+BenchmarkMul/CPU-block(1024x1024)-8         	       1	6187365250 ns/op
+PASS
+ok  	changkun.de/x/pgo-glimpse/pgo/math	62.304s
